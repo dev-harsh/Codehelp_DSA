@@ -13,5 +13,6 @@ class numericHalfPyramid{
           }
         System.out.println();
       }
+      sc.close();
   }
 }

@@ -13,5 +13,6 @@ class InvertedPyramid{
           }
         System.out.println();
       }
+      sc.close();
   }
 }

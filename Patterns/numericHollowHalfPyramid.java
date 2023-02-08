@@ -1,15 +1,18 @@
 import java.util.*;
-class invertedHalfPyramid{
+class numericHollowHalfPyramid{
   public static void main(String args[])
   {
     Scanner sc=new Scanner(System.in);
     System.out.print("Enter the size :");
     int n=sc.nextInt();
-    for(int i=0;i<n;i++)
+    for(int i=1;i<=n;i++)
       {
-        for(int j=1; j<=n-i;j++)
+        for(int j=1; j<=i;j++)
           {
-            System.out.print(j);
+            if(i==1||i==n||j==1||j==i)
+              System.out.print(j);
+            else
+             System.out.print(" ");
           }
         System.out.println();
       }
