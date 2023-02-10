@@ -1,9 +1,9 @@
 package Function;
 import java.util.*;
 public class factorial {
-    private static int factorialCalc(int n)
+    private static long factorialCalc(int n)
     {
-        int result=1;
+        long result=1;
         for(int i=1;i<=n;i++)
         {
             result*=i;
