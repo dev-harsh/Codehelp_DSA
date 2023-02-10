@@ -1,6 +1,6 @@
 package Function;
 import java.util.*;
-public class prime {
+public class primeList {
     
     private static void primeCheck(int n)
     {
@@ -14,16 +14,15 @@ public class prime {
             }
         }
         if(isPrime==true)
-            System.out.println("Prime Number");
-        else
-            System.out.println("Non-Prime Number");
+            System.out.println(n);
     }
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number :");
         int n=sc.nextInt();
-        primeCheck(n);
+        for(int i=1;i<=n;i++)
+            primeCheck(i);
         sc.close();
     }    
 }
