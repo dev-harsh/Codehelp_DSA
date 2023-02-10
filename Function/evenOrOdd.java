@@ -15,5 +15,6 @@ public class evenOrOdd {
         System.out.print("Enter the number :");
         double n=sc.nextDouble();
         evenOddCheck(n);
+        sc.close();
     }    
 }

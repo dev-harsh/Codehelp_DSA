@@ -16,5 +16,6 @@ public class factorial {
         System.out.print("Enter the number :");
         int n=sc.nextInt();
         System.out.println("The factorial is "+factorialCalc(n));
+        sc.close();
     }    
 }

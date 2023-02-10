@@ -13,5 +13,6 @@ public class areaOfCircle {
         System.out.print("Enter the radius :");
         double r=sc.nextDouble();
         System.out.println("The Area of the circle is "+ area(r));
-    }    
+        sc.close();
+    }  
 }
