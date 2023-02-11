@@ -1,0 +1,273 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch bitsPlay",
+            "request": "launch",
+            "mainClass": "Function.bitsPlay",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayDriver",
+            "request": "launch",
+            "mainClass": "Array.arrayDriver",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch areaOfCircle",
+            "request": "launch",
+            "mainClass": "Function.areaOfCircle",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch evenOrOdd",
+            "request": "launch",
+            "mainClass": "Function.evenOrOdd",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial",
+            "request": "launch",
+            "mainClass": "Function.factorial",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch functionDriver",
+            "request": "launch",
+            "mainClass": "Function.functionDriver",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch prime",
+            "request": "launch",
+            "mainClass": "Function.prime",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeList",
+            "request": "launch",
+            "mainClass": "Function.primeList",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverse",
+            "request": "launch",
+            "mainClass": "Function.reverse",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch setKthBit",
+            "request": "launch",
+            "mainClass": "Function.setKthBit",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch temperature",
+            "request": "launch",
+            "mainClass": "Function.temperature",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfPyramid",
+            "request": "launch",
+            "mainClass": "HalfPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch HollowRectangle",
+            "request": "launch",
+            "mainClass": "HollowRectangle",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertedPyramid",
+            "request": "launch",
+            "mainClass": "InvertedPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch SolidRectangle",
+            "request": "launch",
+            "mainClass": "SolidRectangle",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch alphabetPalindromePyramid",
+            "request": "launch",
+            "mainClass": "alphabetPalindromePyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch butterflyPattern",
+            "request": "launch",
+            "mainClass": "butterflyPattern",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch fancyPattern1",
+            "request": "launch",
+            "mainClass": "fancyPattern1",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch fancyPattern2",
+            "request": "launch",
+            "mainClass": "fancyPattern2",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch fancyPattern2_1",
+            "request": "launch",
+            "mainClass": "fancyPattern2_1",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch fancyPattern3",
+            "request": "launch",
+            "mainClass": "fancyPattern3",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch flippedSolidDiamond",
+            "request": "launch",
+            "mainClass": "flippedSolidDiamond",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch floydTriangle",
+            "request": "launch",
+            "mainClass": "floydTriangle",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch fullPyramid",
+            "request": "launch",
+            "mainClass": "fullPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch hollowDiamond",
+            "request": "launch",
+            "mainClass": "hollowDiamond",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch hollowFullPyramid",
+            "request": "launch",
+            "mainClass": "hollowFullPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch hollowInvertedHalfPyramid",
+            "request": "launch",
+            "mainClass": "hollowInvertedHalfPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch invertedFullPyramid",
+            "request": "launch",
+            "mainClass": "invertedFullPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch invertedHalfPyramid",
+            "request": "launch",
+            "mainClass": "invertedHalfPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch numericFullPyramid",
+            "request": "launch",
+            "mainClass": "numericFullPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch numericHalfPyramid",
+            "request": "launch",
+            "mainClass": "numericHalfPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch numericHollowFullPyramid",
+            "request": "launch",
+            "mainClass": "numericHollowFullPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch numericHollowHalfPyramid",
+            "request": "launch",
+            "mainClass": "numericHollowHalfPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch numericHollowInvertedHalfPyramid",
+            "request": "launch",
+            "mainClass": "numericHollowInvertedHalfPyramid",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch pascalTriangle",
+            "request": "launch",
+            "mainClass": "pascalTriangle",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch solidDiamond",
+            "request": "launch",
+            "mainClass": "solidDiamond",
+            "projectName": "DSA_77514479"
+        },
+        {
+            "type": "java",
+            "name": "Launch solidHalfDiamond",
+            "request": "launch",
+            "mainClass": "solidHalfDiamond",
+            "projectName": "DSA_77514479"
+        }
+    ]
+}
