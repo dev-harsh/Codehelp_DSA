@@ -19,7 +19,7 @@ public class bitsPlay {
         return count;
     }
 
-    public static int decimalToBinary(int n)
+    public static int decimalToBinaryDivisionMethod(int n)
     {
         int binary=0;
         int bit=0;
@@ -32,6 +32,34 @@ public class bitsPlay {
         }
         return binary;
     }
+
+    public static int decimalToBinaryBitMethod(int n)
+    {
+        int binary=0;
+        int bit=0;
+        int bitcount=0;
+        while(n>0)
+        {
+            bit=n&1;
+            binary=(int)(bit * Math.pow(10,bitcount++)) + binary;
+            n=n>>1;
+        }
+        return binary;
+    }
+
+    public static int binaryToDecimal(int n)
+    {
+        int num=0;
+        int bit=0;
+        int bitcount=0;
+        while(n>0)
+        {
+            bit=n%10;
+            num=(int)(bit * Math.pow(2,bitcount++)) + num;
+            n=(int)n/10;
+        }
+        return num;
+    }
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
@@ -43,7 +71,10 @@ public class bitsPlay {
 
         // System.out.println("Number of Set bits are : "+countSetBit(n));
 
-        System.out.println("Binary Equivalent is : "+decimalToBinary(n));
+        // System.out.println("Binary Equivalent is : "+decimalToBinaryDivisionMethod(n));
+        // System.out.println("Binary Equivalent is : "+decimalToBinaryBitMethod(n));
+
+        System.out.println("Decimal Equivalent is : "+binaryToDecimal(n));
 
         sc.close();
     }
